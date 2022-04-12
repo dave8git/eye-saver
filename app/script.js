@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 class App extends React.Component {
   state = {
     status: 'off', //work, rest
-    time: 0, // zmienna licznika 
+    time: 0, // counter variable
     timer: null
   }
   formatTime() {
